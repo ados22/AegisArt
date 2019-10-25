@@ -9,8 +9,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="main">
-	
-</div>
+<form action="/signup.php" method="POST">
+	<p>
+		<p><strong>Pick a username</strong></p>
+		<input type="text" name="login">
+	</p>
+
+</form>
 </body>
 </html>

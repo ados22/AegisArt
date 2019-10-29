@@ -107,11 +107,32 @@ html, body {
 }
 
 .content{
-	padding-bottom: 90px;
+	margin-left: 215px;
+	margin-right: 15px;
+	padding-bottom: 150px;
+	
+	max-width: 100%;
+	margin: 10px auto;
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: auto;
+	grid-auto-flow: dense;
+	
+
+	border: 1px solid;
+	
+	
+
+	
 }
 
 .content img{
-	width: 200px;
+	margin: 5px;
+	height: 300px;
+	border: 1px solid white;
+	
+	
 	
 }
 /* начало футера*/

@@ -9,26 +9,23 @@
 	<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
 </head>
 <body>
-<div class="main">
-	<div class="header">
+	<header>
 		<a href="/"><h1><span class="logo">AegisArt</span></h1></a>
-		<div class="burger">
-			<div class="burger-line one"></div>
-			<div class="burger-line two" ></div>
-			<div class="burger-line three"></div>
-			<div class="burger-line four"></div>
-			<input type="checkbox" id="check-menu">
-			<label for="check-menu" id="label_menu"></label>
-			<nav class="main-menu">
-				<a href="#" id="link_menu">Пункт 1</a>
-				<a href="#" id="link_menu">Пункт 1</a>
-				<a href="#" id="link_menu">Пункт 1</a>
-				<a href="#" id="link_menu">Пункт 1</a>
-				<a href="#" id="link_menu">Пункт 1</a>
-			</nav>
-			</div>
-		
-	</div>
+		<a href="/"><div class = "reg"> Sign Up </a> </div>
+		</a></header>
+			<nav> <!-- делаем меню -->
+				<!-- .topnav#myTopnav это для адаптивного меню в js -->
+				<div class = "topnav" id = "myTopnav">
+					<a href = "index.html"> HOME </a>
+					<a href = "projects.html"> PROJECTS </a>
+					<a href = "blog.html"> BLOG </a>
+					<a href = "contact.html"> CONTACTS </a>
+					<a href = "about.html"> ABOUT </a>
+					<a href = "services.html"> SERVICES </a>
+					<a href = "location.html"> LOCATION </a>
+				</div>
+		</nav>
+<main>
 	<div class="content">
 		<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/63b831f3-cc8e-4259-8c3f-2cc8f6edbda0/dbgos60-fb2fb28e-5fb9-464a-8cf7-33641956c004.jpg/v1/fill/w_1192,h_670,q_70,strp/cm__valeera_by_olchas_dbgos60-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9Njc1IiwicGF0aCI6IlwvZlwvNjNiODMxZjMtY2M4ZS00MjU5LThjM2YtMmNjOGY2ZWRiZGEwXC9kYmdvczYwLWZiMmZiMjhlLTVmYjktNDY0YS04Y2Y3LTMzNjQxOTU2YzAwNC5qcGciLCJ3aWR0aCI6Ijw9MTIwMCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.p4N6zKlH1Wb6x4hJTbiKUNXx9XkSp6dgoTXCYmQJDiI" alt="">
 		<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/649d7f65-b927-405e-8b71-1125e17f32ef/ddj8axf-b79b1722-32c1-4dc4-803a-2e2f08b34a24.jpg/v1/fill/w_1920,h_1280,q_75,strp/soft_morning_veil_by_borda_ddj8axf-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzY0OWQ3ZjY1LWI5MjctNDA1ZS04YjcxLTExMjVlMTdmMzJlZlwvZGRqOGF4Zi1iNzliMTcyMi0zMmMxLTRkYzQtODAzYS0yZTJmMDhiMzRhMjQuanBnIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.u_hnVQrnJHQqBfaCWEhmsESwdHaHGeEoBRPQHnlahlk" alt="">
@@ -54,13 +51,14 @@
 		<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/63b831f3-cc8e-4259-8c3f-2cc8f6edbda0/dbtu7yo-74c44cfe-bb56-4c7e-8510-48554d80f4d9.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzYzYjgzMWYzLWNjOGUtNDI1OS04YzNmLTJjYzhmNmVkYmRhMFwvZGJ0dTd5by03NGM0NGNmZS1iYjU2LTRjN2UtODUxMC00ODU1NGQ4MGY0ZDkuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.lA80c5o9-SgDAD0uDCgNPFquBSLqnmkMWfjhaAKKstY" alt="">
 		<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8b94bab2-2164-42a6-947b-0201a275f468/ddj8yuj-6ac54ced-a0f2-422a-b1ce-329ae3c38479.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzhiOTRiYWIyLTIxNjQtNDJhNi05NDdiLTAyMDFhMjc1ZjQ2OFwvZGRqOHl1ai02YWM1NGNlZC1hMGYyLTQyMmEtYjFjZS0zMjlhZTNjMzg0NzkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.RLkirBO-K_Eov52VM9bgOEui74J--1-cPEIqEECR3kU" alt="">
 	</div>
-	<div class="footer">
+</main>
+	<footer>
 		<p>
 			<a href="#">About</a> |
 			<a href="#">Team</a> |
-			<a href="#">Contact us</a> | 
+			<a href="#">Contact us</a> |
 			<a href="#">FAQ</a> |
-			<a href="#">Sign up</a> 
+			<a href="#">Sign up</a>
 		</p>
 		<div class="contact">
 			<a href="#"><img src="assets/img/facebook.png" alt="hello"></a>
@@ -69,7 +67,7 @@
 			<a href="#"><img src="assets/img/rss.png" alt="hello"></a>
 		</div>
 		<p>AegisArt.com 2019</p>
-	</div>
-</div>
+</footer>
+
 </body>
 </html>
